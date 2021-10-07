@@ -9,7 +9,7 @@
 
 
  const app = express()
- const port = process.env.PORT || 2000
+ const port = process.env.PORT || 3000
  const directorypath = path.join(__dirname, '../node-app/public')
  const viewspath = path.join(__dirname, '../node-app/templates/views')
  const partialspath = path.join(__dirname, '../node-app/templates/partials')
